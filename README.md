@@ -4,12 +4,12 @@ maven仓库
 ## repository
 ```xml
  <repository>
-            <id>maven-repo-master</id>
-            <url>https://raw.github.com/zhouzhipeng/maven-repo/master/</url>
-            <snapshots>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-            </snapshots>
+     <id>maven-repo-master</id>
+     <url>https://raw.github.com/zhouzhipeng/maven-repo/master/</url>
+     <snapshots>
+         <enabled>true</enabled>
+         <updatePolicy>always</updatePolicy>
+     </snapshots>
 </repository>
 ```
 
