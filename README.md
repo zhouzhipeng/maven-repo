@@ -1,7 +1,7 @@
 # maven-repo
 maven仓库
 
-## light-mvc
+## [light-mvc](https://github.com/zhouzhipeng/light-mvc)
 ```xml
  <dependency>
      <groupId>com.zhouzhipeng</groupId>
