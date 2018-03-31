@@ -75,7 +75,7 @@
 				<artifactId>maven-deploy-plugin</artifactId>
 				<version>2.8.1</version>
 				<configuration>
-					<altDeploymentRepository>internal.repo::default::file://${project.build.directory}/mvn-repo</altDeploymentRepository>
+					<altDeploymentRepository>internal.repo::default::file:///Users/zhouzhipeng/repository/mvn-repo</altDeploymentRepository>
 				</configuration>
 			</plugin>
 
@@ -86,7 +86,7 @@
 				<configuration>
 					<message>Maven artifacts for ${project.version}</message>
 					<noJekyll>true</noJekyll>
-					<outputDirectory>${project.build.directory}/mvn-repo</outputDirectory>
+					<outputDirectory>/Users/zhouzhipeng/repository/mvn-repo</outputDirectory>
 					<branch>refs/heads/master</branch>
 					<includes>
 						<include>**/*</include>
